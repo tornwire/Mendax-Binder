@@ -1,0 +1,11 @@
+#include "resources.h"
+#include <windows.h>
+ID_FILE_ABOUT DIALOG DISCARDABLE  0, 0, 239, 66
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Mendax File Binder"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON "&Alright", IDOK, 174, 18, 50, 14
+    GROUPBOX "About this program...", -1, 7, 7, 225, 52
+    CTEXT "A Simple but Efficient File Binder. Licensed under GPLv3. Program currently at version 1.1.0. All rights go to BitsByWill.", -1, 16, 18, 144, 33
+END

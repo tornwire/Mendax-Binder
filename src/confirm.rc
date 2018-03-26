@@ -1,0 +1,12 @@
+#include "resources.h"
+#include <windows.h>
+ID_CONFIRM DIALOG DISCARDABLE  0, 0, 239, 66
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Confirm Binding?"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Yes", IDOK, 174, 18, 50, 14
+    PUSHBUTTON      "No", IDCANCEL,174, 35, 50, 14
+    GROUPBOX        "Confirm Binding?", -1, 7, 7, 225, 52
+    CTEXT           "Are you sure you want to bind the selected files together?", -1, 16, 18, 144, 33
+END
