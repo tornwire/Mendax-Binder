@@ -1,0 +1,13 @@
+#define IDI_MYICON 201
+#define IDR_MYMENU 101
+#define IDR_DISCLAIM 102
+#define ID_FILE_EXIT 9001
+#define ID_FILE_ABOUT 9002
+#define ID_IMPORTANT 9003
+#define ID_CONFIRM 9004
+#define ID_BUTTON_1 1001
+#define ID_BUTTON_2 1002
+#define ID_BUTTON_3 1003
+#define ID_BIND 1004
+#define ID_EXIT 1005
+#define IDB_BG 301
