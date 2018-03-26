@@ -18,6 +18,7 @@ So far, only CLI is supported.  Here are the options:
  * -s: Silent mode
  
  Users can either choose to download the executable from the releases section, clone the repo, or compile mendax.c with MinGW's gcc.
+ When compiling the GUI, make sure to have already compiled mendax.c and link mendax_binder.c with all the .o files.
  By running or downloading this program, you agree to the terms of the disclaimer below.
 
 ## Disclaimer
