@@ -1,0 +1,23 @@
+1 VERSIONINFO
+FILEVERSION     1,0,0
+PRODUCTVERSION  1,0,0
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904E4"
+    BEGIN
+      VALUE "BitsByWill", "NA"
+      VALUE "FileDescription", "A Simple but Efficient FileBinder"
+      VALUE "FileVersion", "1.1.0"
+      VALUE "InternalName", "Mendax Binder"
+      VALUE "LegalCopyright", "BitsByWill"
+      VALUE "OriginalFilename", "mendax_binder.exe"
+      VALUE "ProductName", "Mendax Binder"
+      VALUE "ProductVersion", "1.1.0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x809, 1252
+  END
+END
