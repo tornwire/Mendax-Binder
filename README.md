@@ -9,7 +9,7 @@ Not only can it bind two exes (Windows only), but this program also obfuscates t
 This program always binds itself to the two other files.  This way, when the binded application runs, the program first checks if the application is correctly binded.  If it is, it runs the two applications.
 
 ## Usage
-So far, only CLI is supported.  Here are the options:
+Both CLI and GUI are supported.  Here are the CLI options:
  * -1: First input file
  * -2: Second input file
  * -o: Name for the output file
