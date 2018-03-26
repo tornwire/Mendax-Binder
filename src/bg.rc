@@ -1,0 +1,2 @@
+#include "resources.h"
+IDB_BG BITMAP DISCARDABLE "mendax.bmp"
