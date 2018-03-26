@@ -1,0 +1,12 @@
+#include "resources.h"
+#include <windows.h>
+ID_IMPORTANT DIALOG DISCARDABLE  0, 0, 239, 100
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "IMPORTANT"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON "Yes!", IDOK, 174, 18, 50, 14
+	PUSHBUTTON "&No, I'm a skiddie", IDCANCEL, 170, 35, 60, 14
+    GROUPBOX "TERMS OF USAGE", -1, 7, 7, 225, 85
+    CTEXT "Remember that this program is only for EDUCATIONAL PURPOSES. Do not use this for malicious purposes. This program must not be used on any system or network that you do not have permission to. I am not responsible if you ruin your own computer or get in serious trouble for creating malware.  Do you understand?", -1, 16, 18, 144, 70
+END
