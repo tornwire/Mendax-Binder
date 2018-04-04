@@ -1,0 +1,11 @@
+#include "resources.h"
+#include <windows.h>
+ID_HELP_BIND_MORE DIALOG DISCARDABLE  0, 0, 239, 66
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Bind more?"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON "OK", IDOK, 174, 18, 50, 14
+    GROUPBOX "How to bind more than 2 files?", -1, 7, 7, 225, 52
+    CTEXT "Literally just keep binding binded files on top of each other.", -1, 16, 18, 144, 33
+END
