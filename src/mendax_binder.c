@@ -2,8 +2,7 @@
 #include <stdio.h>
 #include "resources.h"
 
-//COMPILE WITH -MWINDOWS FLAG
-//gcc -o mendax_binder.exe mendax_binder.c mendax_rc.o icon.o menu.o dialog_about.o important.o confirm.o bg.o -mwindows
+//gcc -o mendax_binder.exe mendax_binder.c mendax_rc.o icon.o menu.o dialog_about.o important.o confirm.o bg.o bindmore.o -mwindows
 
 const char g_szClassName[] = "Mendax Binder GUI";
 char *input1 = NULL;
@@ -12,6 +11,26 @@ char *output = NULL;
 HBITMAP g_hbmBall = NULL;
 
 BOOL CALLBACK AboutDlgProc(HWND hwnd, UINT Message, WPARAM wParam, LPARAM lParam)
+{
+    switch(Message)
+    {
+        case WM_INITDIALOG:
+        return TRUE;
+        case WM_COMMAND:
+            switch(LOWORD(wParam))
+            {
+                case IDOK:
+                    EndDialog(hwnd, IDOK);
+                break;
+            }
+        break;
+        default:
+            return FALSE;
+    }
+    return TRUE;
+}
+
+BOOL CALLBACK MoreInfoDlgProc(HWND hwnd, UINT Message, WPARAM wParam, LPARAM lParam)
 {
     switch(Message)
     {
@@ -178,6 +197,15 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
 				case ID_FILE_ABOUT:
 				{
 					int ret = DialogBox(GetModuleHandle(NULL), MAKEINTRESOURCE(ID_FILE_ABOUT), hwnd, AboutDlgProc);
+					if(ret != IDOK)
+					{
+						MessageBox(hwnd, "An Unknown Error Occurred", "Error", MB_OK | MB_ICONINFORMATION);
+					}
+				}
+				break;
+				case ID_HELP_BIND_MORE:
+				{
+				    int ret = DialogBox(GetModuleHandle(NULL), MAKEINTRESOURCE(ID_HELP_BIND_MORE), hwnd, MoreInfoDlgProc);
 					if(ret != IDOK)
 					{
 						MessageBox(hwnd, "An Unknown Error Occurred", "Error", MB_OK | MB_ICONINFORMATION);
