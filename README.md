@@ -18,7 +18,8 @@ Both CLI and GUI are supported.  Here are the CLI options:
  * -s: Silent mode
  
  Users can either choose to download the executable from the releases section, clone the repo, or compile mendax.c with MinGW's gcc.
- When compiling the GUI, make sure to have already compiled mendax.c and link mendax_binder.c with all the .o files.
+ When compiling the GUI, make sure to have already compiled mendax.c and link mendax_binder.c with all the .o files.  Remember to use the -mwindows option to. Before using the GUI, rememebr that I did not include many features to it; it was meant to be as minimalistic and efficient as possible. 
+![The minimalistic GUI](https://s9.postimg.org/e16d7dxjj/mendax_gui.png)
  By running or downloading this program, you agree to the terms of the disclaimer below.
 
 ## Disclaimer
