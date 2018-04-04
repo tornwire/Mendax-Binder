@@ -8,4 +8,8 @@ BEGIN
     MENUITEM "Disclaimer", 9003
     MENUITEM "E&xit", 9001
   END
+  POPUP "&Help"
+  BEGIN
+    MENUITEM "Bind More?", 9005
+  END
 END
