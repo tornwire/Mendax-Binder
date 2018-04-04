@@ -22,6 +22,7 @@ Both CLI and GUI are supported.  Here are the CLI options:
 ![The minimalistic GUI](https://s9.postimg.org/e16d7dxjj/mendax_gui.png)
 
 By running or downloading this program, you agree to the terms of the disclaimer below.
+For users who want to bind more than two files, you can just bind the binded files on top of each other for now.
 
 ## Disclaimer
 Remember that this program is only for EDUCATIONAL PURPOSES.  Do not use this for malicious purposes.  This program must not be used on any system or network that you do not have permission to. I am not responsible if you ruin your own computer or get in serious trouble for creating malware.
