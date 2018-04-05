@@ -285,7 +285,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
         MessageBox(NULL, "Window Registration Failed!", "Error!", MB_ICONEXCLAMATION | MB_OK);
         return 0;
     }
-    hwnd = CreateWindowEx(WS_EX_CLIENTEDGE, g_szClassName,"Mendax Binder", WS_OVERLAPPEDWINDOW,CW_USEDEFAULT, CW_USEDEFAULT, 640, 500, NULL, NULL, hInstance, NULL);	
+    hwnd = CreateWindowEx(WS_EX_CLIENTEDGE, g_szClassName,"Mendax Binder", WS_OVERLAPPEDWINDOW,CW_USEDEFAULT, CW_USEDEFAULT, 620, 490, NULL, NULL, hInstance, NULL);	
     if(hwnd == NULL)
     {
         MessageBox(NULL, "Window Creation Failed!", "Error!", MB_ICONEXCLAMATION | MB_OK);
