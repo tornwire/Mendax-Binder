@@ -142,7 +142,7 @@ int main (int argc, char **argv)
 	{
 		binded=1; 
 	}  
-	if(part != NULL )
+	if(part2 != NULL )
 	{
 		FILE * fp = fopen(exec2,"wb");
 		fwrite(part2,size-(j+3),1,fp);
