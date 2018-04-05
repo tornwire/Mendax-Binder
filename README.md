@@ -19,7 +19,7 @@ Both CLI and GUI are supported.  Here are the CLI options:
  
  Users can either choose to download the executable from the releases section, clone the repo, or compile mendax.c with MinGW's gcc.
  When compiling the GUI, make sure to have already compiled mendax.c and link mendax_binder.c with all the .o files.  Remember to use the -mwindows option to. Before using the GUI, rememebr that I did not include many features to it; it was meant to be as minimalistic and efficient as possible. 
-![The minimalistic GUI](https://s9.postimg.org/7js21o9zz/mendax_gui.png)
+![The minimalistic GUI](https://s31.postimg.org/fncy7kjx7/mendax.png)
 
 By running or downloading this program, you agree to the terms of the disclaimer below.
 For users who want to bind more than two files, you can just bind the binded files on top of each other for now.
