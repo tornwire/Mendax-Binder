@@ -32,11 +32,12 @@ Remember that this program is only for EDUCATIONAL PURPOSES.  Do not use this fo
 
 ## What's Next
 * Better obfuscation
-* Bind more than two files
 * Patch up any issues (Let me know of any issues please!)
+* Ability to add icons
 
-## Note
-Please note that this program still has problems and must be improved.  I am currently trying to figure out an issue that causes the binded file to not work in certain cases (it works 100% on XP and Vista, but sometimes break on 7, 8, and 10).
+## Known Issues
+* On Windows 10, remaking binded files occasionally causes the files previously binded to show up.  Can be fixed with a simple restart or a clearing of temporary files. 
+* Occasional issues with 64 bit programs - I recommend sticking to 32 bit
 
 ## License
 This project is licensed under the GNU GPLv3 - see the [LICENSE](LICENSE) file for details
