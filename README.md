@@ -1,5 +1,5 @@
 # Mendax-Binder
-![Mendax-Binder](https://s14.postimg.org/ynx423o9d/mendax_logo.png)
+![Mendax-Binder](https://s31.postimg.cc/ck5xjn5wb/mendax_logo.png)
 
 
 A useful and efficient file binder.  I created this for educational purposes after researching some file binding techniques on some old forum posts.
@@ -19,7 +19,7 @@ Both CLI and GUI are supported.  Here are the CLI options:
  
  Users can either choose to download the executable from the releases section, clone the repo, or compile mendax.c with MinGW's gcc.
  When compiling the GUI, make sure to have already compiled mendax.c and link mendax_binder.c with all the .o files.  Remember to use the -mwindows option to. Before using the GUI, rememeber that I did not include many features to it; it was meant to be as minimalistic and efficient as possible. 
-![The minimalistic GUI](https://s31.postimg.org/fncy7kjx7/mendax.png)
+![The minimalistic GUI](https://s31.postimg.cc/sv61fzkyz/gui.png)
 
 By running or downloading this program, you agree to the terms of the disclaimer below.
 For users who want to bind more than two files, you can just bind the binded files on top of each other for now.  Also, icons can be added using 3rd party tools like Resource Hacker.
