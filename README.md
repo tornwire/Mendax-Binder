@@ -25,7 +25,7 @@ By running or downloading this program, you agree to the terms of the disclaimer
 For users who want to bind more than two files, you can just bind the binded files on top of each other for now.  Also, icons can be added using 3rd party tools like Resource Hacker.
 
 ## Disclaimer
-Remember that this program is only for EDUCATIONAL PURPOSES.  Do not use this for malicious purposes.  This program must not be used on any system or network that you do not have permission to. I am not responsible if you ruin your own computer or get in serious trouble for creating malware.
+Remember that this program is only for EDUCATIONAL PURPOSES.  Do not use this for malicious purposes.  This program must not be used on any system or network that you do not have permission too. I am not responsible if you ruin your own computer or get in serious trouble for creating malware.
  
  ## Authors
 * **Will Liu** - *Creator* - [BitsByWill](https://github.com/BitsByWill)
